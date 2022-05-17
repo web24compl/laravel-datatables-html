@@ -20,7 +20,7 @@ trait Action
             'data' => 'action',
             'name' => 'action',
             'title' => 'Action',
-            'render' => null,
+            'render' => fn() => false,
             'orderable' => false,
             'searchable' => false,
             'exportable' => false,
